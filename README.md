@@ -1,2 +1,2 @@
 # junos_config_converter
-It convert junos config to set or configuration style
+This script converts junos configuration to 'set / edit ' style or ' show configuration' style.
