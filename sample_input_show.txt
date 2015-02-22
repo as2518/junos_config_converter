@@ -1,0 +1,16 @@
+system {
+    host-name R1;
+    time-zone Asia/Tokyo;
+    root-authentication {
+        encrypted-password "$1$9kcwd00g$YDqr8sBMaAh8SOCjQ2f4b0"; ## SECRET-DATA
+    }
+}
+interfaces {
+    fe-0/0/0 {
+        unit 0 {
+            family inet {
+                address 192.168.1.1/24;
+            }
+        }
+    }
+}
