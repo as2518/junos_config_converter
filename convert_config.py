@@ -28,11 +28,12 @@ def convert_from_set_to_show(input_text):
         if line == '':
             output_text += '\n'
         elif 'edit' in line:
+            #indent = line.rstrip('edit ')
             output_text +=  indent + line.lstrip('edit ') + '{\n'
         elif 'set' in line:
             output_text +=  indent + line.lstrip('set ') + ';\n'
         elif 'up' in line:
-            output_text +=  indent + line.strip('up') + '}\n'
+            output_text +=  indent + line.rstrip('up') + '}\n'
         else:
             output_text += line + '\n'
     return output_text
