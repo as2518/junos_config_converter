@@ -1,4 +1,0 @@
-set unit 0 family inet address 192.107.1.230/24
-set unit 0 family iso
-set unit 0 family mpls
-set unit 1 family inet address 10.0.0.1/8

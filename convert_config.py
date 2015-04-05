@@ -16,12 +16,18 @@ def convert_from_show_to_set(input_text):
             indent = indent[:-4]
             output_text += indent + 'up\n'
         elif '; ## SECRET-DATA' in line:
+            # ignore sentence of "## SECRET-DATA"
             output_text += indent + 'set ' + line.strip('; ## SECRET-DATA') + '\n'
         else:
             output_text += line + '\n'
     return output_text
 
 def convert_from_set_to_show(input_text):
+
+    # Implement later
+    pass
+
+    '''
     output_text = ''
     indent = ''
     for line in input_text.splitlines():
@@ -37,3 +43,4 @@ def convert_from_set_to_show(input_text):
         else:
             output_text += line + '\n'
     return output_text
+    '''
