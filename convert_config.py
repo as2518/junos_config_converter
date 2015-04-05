@@ -27,6 +27,9 @@ def convert_from_set_to_show(input_text):
     # Implement later
     pass
 
+    # You need to define all of JUNOS sentences.
+    # It difficult to decide a variable or an invariable sentence,
+    # for input example "set interfaces fe-0/0/0 unit 0 family inet address 192.107.1.230/24"
     '''
     output_text = ''
     indent = ''

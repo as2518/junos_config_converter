@@ -12,9 +12,9 @@ file_input.close()
 
 output_text = convert_from_show_to_set( input_text )
 
-date_today = datetime.datetime.today()
-date_today_str = date_today.strftime( '%Y%m%d_%H%M' )
+# example: 20150405_2151
+current_date_str = datetime.datetime.today().strftime( '%Y%m%d_%H%M' )
 
-file_output = open ('output' + date_today_str + '.txt', 'w')
+file_output = open ('output' + current_date_str + '.txt', 'w')
 file_output.write( output_text )
 file_output.close
