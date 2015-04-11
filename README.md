@@ -8,7 +8,7 @@ This tool is very simple to use.
 
 The input is Junos script of 'show configuration' style.
 
-'''
+```
 system {
     host-name R1;
     time-zone Asia/Tokyo;
@@ -25,19 +25,19 @@ interfaces {
         }
     }
 }
-'''
+```
 
 This is sample program.
 
-'''python
+```python
 from convert_config import convert_from_show_to_set
 
 output_text = convert_from_show_to_set( input_text )
-'''
+```
 
 
 The converted output file .
-'''
+```
 edit system
     set  host-name R1
     set  time-zone Asia/Tokyo
@@ -54,7 +54,7 @@ edit interfaces
         up
     up
 up
-'''
+```
 
 
 If you want to know the detial samle code, you should see sample/sample_from_shwo_to_set.py.
