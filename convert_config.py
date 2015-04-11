@@ -28,22 +28,5 @@ def convert_from_set_to_show(input_text):
     pass
 
     # You need to define all of JUNOS sentences.
-    # It difficult to decide a variable or an invariable sentence,
-    # for input example "set interfaces fe-0/0/0 unit 0 family inet address 192.107.1.230/24"
-    '''
-    output_text = ''
-    indent = ''
-    for line in input_text.splitlines():
-        if line == '':
-            output_text += '\n'
-        elif 'edit' in line:
-            #indent = line.rstrip('edit ')
-            output_text +=  indent + line.lstrip('edit ') + '{\n'
-        elif 'set' in line:
-            output_text +=  indent + line.lstrip('set ') + ';\n'
-        elif 'up' in line:
-            output_text +=  indent + line.rstrip('up') + '}\n'
-        else:
-            output_text += line + '\n'
-    return output_text
-    '''
+    # It difficult to find defference a variable and an invariable sentence,
+    # for example "set interfaces fe-0/0/0 unit 0 family inet address 192.107.1.230/24"
