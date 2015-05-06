@@ -67,4 +67,4 @@ If you need conversion from 'set/edit style' to 'show configration style', you s
 
 # blog
 Posted technical blog in Qiita (In Japanese).
-http://qiita.com/taijijiji/items/d83ca9d57b711d1e6afb#%E9%96%8B%E7%99%BA%E7%8A%B6%E6%B3%81
+http://qiita.com/taijijiji/items/d83ca9d57b711d1e6afb
