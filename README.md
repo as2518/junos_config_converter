@@ -64,3 +64,7 @@ Current Status
 --------------
 We implement only situation which convert script from 'show configration style' to 'set/edit style'.
 If you need conversion from 'set/edit style' to 'show configration style', you should define all of JUNOS configuration architecture and implement the function of 'convert_from_set_to_show'.
+
+# blog
+Posted technical blog in Qiita (In Japanese).
+http://qiita.com/taijijiji/items/d83ca9d57b711d1e6afb#%E9%96%8B%E7%99%BA%E7%8A%B6%E6%B3%81
